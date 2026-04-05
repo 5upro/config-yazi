@@ -1,0 +1,6 @@
+[mgr]
+prepend_keymap = [
+  { on   = [ "'", "h" ], run  = "plugin whide --args='hide'", desc = "Hide files" },
+  { on   = [ "'", "H" ], run  = "plugin whide --args='unhide'", desc = "Unhide files" },
+  { on   = [ "'", "<A-h>" ], run  = "plugin whide --args='toggle'", desc = "Toggle hidden status" },
+]
